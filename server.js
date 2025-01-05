@@ -5,6 +5,8 @@ const mongoose = require("mongoose");
 const http = require("http");
 const socket = require("socket.io");
 const userRouter = require("./routes/userRoutes");
+const groupRouter = require("./routes/groupRoutes");
+const messageRouter = require("./routes/messageRoutes");
 const socketIo = require("./socket");
 
 dotenv.config();
